@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<html>
+
+<head>
+    <!--Survey Form For FCC responsive design certification-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome= 1">
+    <meta name="description" content="Survey form for FreeCodeCamp by Terry Reynolds">
+    <meta name="keywords" content="Developer, Canada, Teacher, FreeCodeCamp, Terry Reynolds">
+    <meta name="author" content="Terry Reynolds">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Reynolds Survey Form</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+
+    <form id="survey-form">
+        <h1 id="title">Candy Survey</h1>
+        <p id="description">Please tell us about your candy preferences</p>
+
+        <div id="inputs">
+            <label for="name" id="name-label">Name:</label><input id="name" type="text" placeholder="Enter Your Name"
+                required></input>
+
+            <label for="email" id="email-label">Email:</label><input id="email" type="email" placeholder="Enter Your Email"
+                required></input>
+
+            <label for="number" id="number-label">Age:</label> <input type="number" id="number" name="amount"
+                placeholder="Enter Your Age" min="1" max="120" id="number" placeholder="Enter Your Age" required></input>
+        </div>
+
+        <div id="currentRole">
+            <label id="role">Which option best describes your current role?</label>
+            <select name="role" id="dropdown">
+                <option value="child">Child</option>
+                <option value="youth">Youth</option>
+                <option value="adult">Adult</option>
+                <option value="elder">Elder</option>
+            </select>
+        </div>
+
+        <div id="howOftenEatCandy">
+            <label id="howOften">How often do you eat candy?</label><br>
+            <input id="topItem" type="radio" name="frequency" value="Everyday"> Everyday<br>
+            <input type="radio" name="frequency" value="Once per week"> Once per week<br>
+            <input type="radio" name="frequency" value="More than once per week"> More than once per week<br>
+            <input type="radio" name="frequency" value="Once a month"> Once per month<br>
+        </div>
+
+        <div id="checkYourFavouriteCandy">
+            <label id="checkCandy">Check your favourite candy:</label><br>
+            <input id="topItemCandy" type="checkbox" name="candy1" value="kitKat"> Kit Kat<br>
+            <input type="checkbox" name="candy2" value="ringPop"> Ring Pop<br>
+            <input type="checkbox" name="candy3" value="lollipop"> Lollipop<br>
+            <input type="checkbox" name="candy4" value="nerds"> Nerds<br>
+            <input type="checkbox" name="candy5" value="smarties"> Smarties<br>
+            <input type="checkbox" name="candy6" value="m&ms"> M&Ms<br>
+            <input type="checkbox" name="candy7" value="werthurs"> Werthers<br>
+            <input type="checkbox" name="candy8" value="skor"> Skor<br>
+        </div>
+
+        <div id="otherTypesOfCandyILike">
+            <label id="otherTypes">Other types of candy I like:</label><br>
+            <textarea rows="4" cols="50" id="textArea"></textarea>
+        </div>
+
+        <input type="submit" id="submit">
+
+    </form>
+    <script type="text/javascript" src="script.js"></script>
+</body>

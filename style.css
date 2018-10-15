@@ -1,0 +1,66 @@
+body {
+  background: #feb6cd;
+  font-family: "Roboto", sans-serif;
+}
+#survey-form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  margin: 1vw;
+}
+#description {
+  font-weight: bold;
+}
+#inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0.5vw 0.5vw 1vw 0.5vw;
+}
+#name {
+  margin: 0.5vw;
+}
+#email {
+  margin: 0.5vw;
+}
+#number {
+  margin: 0.5vw;
+}
+#currentRole {
+  margin: 1.2vw;
+}
+#role {
+  margin: 1vw;
+  font-weight: bold;
+}
+#howOftenEatCandy {
+  margin: 0.5vw;
+}
+#topItem {
+  margin-top: 1vw;
+}
+#howOften {
+  font-weight: bold;
+  margin: 1vw;
+}
+#checkYourFavouriteCandy {
+  margin: 1vw;
+}
+#checkCandy {
+  font-weight: bold;
+}
+#topItemCandy {
+  margin-top: 1vw;
+}
+#otherTypesOfCandyILike {
+  margin: 0.5vw;
+}
+#otherTypes {
+  margin: 0.5vw;
+  font-weight: bold;
+}
+#textArea {
+  margin-top: 1vw;
+}
